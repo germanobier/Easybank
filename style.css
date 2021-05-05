@@ -1,0 +1,92 @@
+* {
+    font-family: 'Public Sans', sans-serif;
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/*=========== HEADER ===========*/
+header {
+    z-index: 10;
+    background-color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content nav ul {
+    display: flex;
+}
+
+.header-content nav ul li a {
+    color: #9698a6;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.buttons {
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: linear-gradient(
+    104deg , #31d35c, rgb(43, 183, 218));
+}
+
+div#main-div-bg {
+   display: flex;
+   align-items: center;
+}
+
+div#main-div {
+    width: 50%;
+}
+
+div#main-div h1 {
+    font-size: 350%;
+    font-weight: 100;
+    color: hsl(233, 26%, 24%);
+    margin: 80px 0 40px 0
+}
+
+div#main-div p {
+    color: #9698a6;
+    margin-bottom: 40px;
+}
+
+div#images-bg {
+    width: 50%;
+}
+
+div#images-bg img#intro{
+    position: absolute;
+    top: -177px;
+    left: 923px;
+    z-index: -10;
+}
+
+
+div#images-bg img#phone{
+    position: absolute;
+    top: -34px;
+    left: 1124px;
+    z-index: -10;
+}
