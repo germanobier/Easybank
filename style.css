@@ -24,6 +24,7 @@ p {
 /*=========== START HEADER ===========*/
 header {
   z-index: 10;
+  position: relative;
   background-color: #fff;
 }
 
@@ -59,11 +60,10 @@ header {
 
 div.main-div-bg {
   background-color: hsl(0, 0%, 98%);
-  z-index: -50;
 }
 
 div#main-div {
-  height: 613px;
+  height: 645px;
   display: flex;
   align-items: center;
 }
@@ -92,7 +92,6 @@ div#main-div-imgs img#intro{
   position: absolute;
   top: -586px;
   left: 6px;
-  z-index: -10;
 }
 
 
@@ -100,5 +99,4 @@ div#main-div-imgs img#phone{
   position: absolute;
   top: -444px;
   left: 201px;
-  z-index: -10;
 }
