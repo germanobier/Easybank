@@ -18,6 +18,7 @@ main {
 
 h1, h2, h3, h4 {
   color: #2d314d;
+  font-weight: 100;
 }
 
 h1 + p, h2 + p {
@@ -26,7 +27,6 @@ h1 + p, h2 + p {
 
 h2 {
   font-size: 250%;
-  font-weight: 100;
   margin-bottom: 40px;
 }
 
@@ -98,7 +98,6 @@ header .header-content nav a {
 
 #main-div div#main-div-text h1 {
   font-size: 350%;
-  font-weight: 100;
   margin-bottom: 40px;
 }
 
@@ -120,8 +119,7 @@ div#main-div-imgs img#phone {
 
 #cards-bg {
   background-color: #f3f4f6;
-  height: 660px;
-  padding-top: 60px;
+  padding: 60px 0 60px 0px;
 }
 
 #cards-bg #cards-flex {
@@ -142,7 +140,6 @@ div#main-div-imgs img#phone {
 
 #cards-bg .cards h3 {
   font-size: 138%;
-  font-weight: 100;
   margin-bottom: 30px;
 }
 
@@ -150,7 +147,7 @@ div#main-div-imgs img#phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 1000px;
+  padding-bottom: 70px;
 }
 
 #articles-flex .articles {
@@ -164,6 +161,60 @@ div#main-div-imgs img#phone {
 }
 
 #articles-flex .articles .articles-text {
-  padding: 25px;
+  padding: 25px 16px 25px 25px;
+}
+
+#articles-flex .articles .articles-text span {
+  font-size: 11px;
+  color: #9698a6;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+#articles-flex .articles .articles-text h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#articles-flex .articles .articles-text p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #2d314d;
+  height: 300px;
+  padding: 30px 0 30px 0;
+}
+
+footer #footer-content {
+  height: 100px;
+}
+
+footer #footer-links {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer #footer-links #social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #footer-links #social-media ul li {
+  margin-right: 15px;
+}
+
+footer ul li a {
+  color: #9698a6;
 }
 /*# sourceMappingURL=main.css.map */

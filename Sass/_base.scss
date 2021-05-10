@@ -17,6 +17,7 @@ main {
 
 h1, h2, h3, h4 {
   color: #2d314d;
+  font-weight: 100;
 }
 
 h1 + p, h2 + p{
@@ -25,7 +26,6 @@ h1 + p, h2 + p{
 
 h2 {
   font-size: 250%;
-  font-weight: 100;
   margin-bottom: 40px;
 }
 

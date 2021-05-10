@@ -1,6 +1,6 @@
 #articles-flex {
   display: flex;
-  height: 1000px;
+  padding-bottom: 70px;
 
   .articles {
     margin-right: 25px;
@@ -12,7 +12,23 @@
     }
 
     .articles-text {
-      padding: 25px;
+      padding: 25px 16px 25px 25px;
+
+      span {
+        font-size: 11px;
+        color: #9698a6;
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+
+      h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 16px;
+      }
     }
   }
 }

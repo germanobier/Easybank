@@ -1,7 +1,6 @@
 #cards-bg {
   background-color: hsl(220, 16%, 96%);
-  height: 660px;
-  padding-top: 60px;
+  padding: 60px 0 60px 0px;
 
   #cards-flex {
     display: flex;
@@ -18,7 +17,6 @@
 
     h3 {
       font-size: 138%;
-      font-weight: 100;
       margin-bottom: 30px;
     }
   }
