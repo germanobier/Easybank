@@ -1,0 +1,26 @@
+header {
+  z-index: 10;
+  position: relative;
+  background-color: #fff;
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-content nav ul {
+    display: flex;
+  }
+
+  .header-content nav a {
+    color: #9698a6;
+    font-size: 16px;
+    padding: 0 15px;
+  }
+}
+
+
+
+
+

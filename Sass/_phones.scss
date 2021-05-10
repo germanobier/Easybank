@@ -1,0 +1,15 @@
+div#main-div-imgs {
+  position: relative;
+
+  img#intro {
+    position: absolute;
+    top: -608px;
+    left: 6px;
+  }
+
+  img#phone {
+    position: absolute;
+    top: -463px;
+    left: 201px;
+  }
+}
