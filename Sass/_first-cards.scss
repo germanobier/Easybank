@@ -1,4 +1,25 @@
-#first-cards-bg {
+#cards-bg {
   background-color: hsl(220, 16%, 96%);
-  height: 500px;
+  height: 660px;
+  padding-top: 60px;
+
+  #cards-flex {
+    display: flex;
+  }
+
+  .cards {
+    margin-top: 35px;
+    width: 300px;
+    margin-right: 25px;
+
+    img {
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      font-size: 138%;
+      font-weight: 100;
+      margin-bottom: 30px;
+    }
+  }
 }

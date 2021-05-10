@@ -8,14 +8,29 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {
   background-color: #fafafa;
 }
 
+h1, h2, h3, h4 {
+  color: #2d314d;
+}
+
+h1 + p, h2 + p{
+    margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 250%;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
 p {
+  color: #9698a6;
   font-size: 18px;
 }
 

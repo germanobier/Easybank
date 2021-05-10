@@ -9,14 +9,29 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {
   background-color: #fafafa;
 }
 
+h1, h2, h3, h4 {
+  color: #2d314d;
+}
+
+h1 + p, h2 + p {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 250%;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
 p {
+  color: #9698a6;
   font-size: 18px;
 }
 
@@ -84,12 +99,6 @@ header .header-content nav a {
 #main-div div#main-div-text h1 {
   font-size: 350%;
   font-weight: 100;
-  color: #2d314d;
-  margin-bottom: 40px;
-}
-
-#main-div div#main-div-text p {
-  color: #9698a6;
   margin-bottom: 40px;
 }
 
@@ -109,8 +118,52 @@ div#main-div-imgs img#phone {
   left: 201px;
 }
 
-#first-cards-bg {
+#cards-bg {
   background-color: #f3f4f6;
-  height: 500px;
+  height: 660px;
+  padding-top: 60px;
+}
+
+#cards-bg #cards-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cards-bg .cards {
+  margin-top: 35px;
+  width: 300px;
+  margin-right: 25px;
+}
+
+#cards-bg .cards img {
+  margin-bottom: 40px;
+}
+
+#cards-bg .cards h3 {
+  font-size: 138%;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+#articles-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1000px;
+}
+
+#articles-flex .articles {
+  margin-right: 25px;
+}
+
+#articles-flex .articles img {
+  width: 261px;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#articles-flex .articles .articles-text {
+  padding: 25px;
 }
 /*# sourceMappingURL=main.css.map */
