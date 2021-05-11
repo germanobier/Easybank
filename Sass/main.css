@@ -182,15 +182,17 @@ div#main-div-imgs img#phone {
 
 footer {
   background-color: #2d314d;
-  height: 300px;
   padding: 30px 0 30px 0;
 }
 
 footer #footer-content {
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-footer #footer-links {
+footer #footer-content #footer-media {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,19 +204,56 @@ footer #footer-links {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 150px;
 }
 
-footer #footer-links #social-media ul {
+footer #footer-content #footer-media #social-media ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-footer #footer-links #social-media ul li {
+footer #footer-content #footer-media #social-media ul li:not(:last-child) {
   margin-right: 15px;
 }
 
-footer ul li a {
+footer #footer-content ul.links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 150px;
+}
+
+footer #footer-content ul.links-list a {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer #footer-content #footer-end {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer #footer-content #footer-end span {
   color: #9698a6;
 }
 /*# sourceMappingURL=main.css.map */
