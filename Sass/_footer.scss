@@ -5,13 +5,13 @@ footer {
   #footer-content {
     height: 100px;
     display: flex;
+    justify-content: space-between;
 
     #footer-media {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-right: 150px;
   
       #social-media {
         ul {
@@ -19,6 +19,18 @@ footer {
     
           li:not(:last-child) {
             margin-right: 15px;
+          }
+
+          a img:last-child {
+            display: none;
+          }
+
+          a:hover img:first-child {
+            display: none;
+          }
+
+          a:hover img:last-child {
+            display: inline;
           }
         }
       }
@@ -28,11 +40,15 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-right: 150px;
 
       a {
         font-size: 18px;
         color: #fff;
+        transition: 0.3s;
+
+        &:hover {
+          color: #34A15A;
+        }
       }
     }
 

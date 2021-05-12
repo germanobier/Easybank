@@ -48,8 +48,16 @@ p {
   height: 44px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
   color: #fff;
   background: linear-gradient(104deg, #31d35c, #2bb7da);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.buttons:hover {
+  -webkit-filter: saturate(140%);
+          filter: saturate(140%);
 }
 
 header {
@@ -128,10 +136,13 @@ div#main-div-imgs img#phone {
   display: flex;
 }
 
+#cards-bg #cards-flex :not(:last-child) {
+  margin-right: 25px;
+}
+
 #cards-bg .cards {
   margin-top: 35px;
   width: 300px;
-  margin-right: 25px;
 }
 
 #cards-bg .cards img {
@@ -152,6 +163,9 @@ div#main-div-imgs img#phone {
 
 #articles-flex .articles {
   margin-right: 25px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  cursor: pointer;
 }
 
 #articles-flex .articles img {
@@ -161,7 +175,7 @@ div#main-div-imgs img#phone {
 }
 
 #articles-flex .articles .articles-text {
-  padding: 25px 16px 25px 25px;
+  padding: 25px;
 }
 
 #articles-flex .articles .articles-text span {
@@ -176,8 +190,21 @@ div#main-div-imgs img#phone {
   margin-bottom: 15px;
 }
 
+#articles-flex .articles .articles-text h4:hover {
+  text-decoration: underline;
+}
+
 #articles-flex .articles .articles-text p {
   font-size: 16px;
+}
+
+#articles-flex .articles .articles-text p:hover {
+  text-decoration: underline;
+}
+
+#articles-flex .articles:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 footer {
@@ -190,6 +217,9 @@ footer #footer-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer #footer-content #footer-media {
@@ -204,7 +234,6 @@ footer #footer-content #footer-media {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 150px;
 }
 
 footer #footer-content #footer-media #social-media ul {
@@ -215,6 +244,18 @@ footer #footer-content #footer-media #social-media ul {
 
 footer #footer-content #footer-media #social-media ul li:not(:last-child) {
   margin-right: 15px;
+}
+
+footer #footer-content #footer-media #social-media ul a img:last-child {
+  display: none;
+}
+
+footer #footer-content #footer-media #social-media ul a:hover img:first-child {
+  display: none;
+}
+
+footer #footer-content #footer-media #social-media ul a:hover img:last-child {
+  display: inline;
 }
 
 footer #footer-content ul.links-list {
@@ -228,12 +269,17 @@ footer #footer-content ul.links-list {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 150px;
 }
 
 footer #footer-content ul.links-list a {
   font-size: 18px;
   color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer #footer-content ul.links-list a:hover {
+  color: #34A15A;
 }
 
 footer #footer-content #footer-end {

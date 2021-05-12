@@ -4,6 +4,8 @@
 
   .articles {
     margin-right: 25px;
+    transition: 0.35s;
+    cursor: pointer;
     
     img {
       width: 261px;
@@ -12,7 +14,7 @@
     }
 
     .articles-text {
-      padding: 25px 16px 25px 25px;
+      padding: 25px;
 
       span {
         font-size: 11px;
@@ -24,11 +26,23 @@
       h4 {
         font-size: 20px;
         margin-bottom: 15px;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       p {
         font-size: 16px;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
+    }
+
+    &:hover {
+      transform: scale(1.15);
     }
   }
 }

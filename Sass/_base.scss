@@ -47,7 +47,13 @@ p {
   height: 44px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
   color: #fff;
   background: linear-gradient(
   104deg , #31d35c, rgb(43, 183, 218));
+  transition: 0.3s;
+
+  &:hover {
+    filter: saturate(140%);
+  }
 }

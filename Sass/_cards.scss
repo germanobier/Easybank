@@ -4,12 +4,15 @@
 
   #cards-flex {
     display: flex;
+
+    :not(:last-child) {
+      margin-right: 25px;
+    }
   }
 
   .cards {
     margin-top: 35px;
     width: 300px;
-    margin-right: 25px;
 
     img {
       margin-bottom: 40px;
