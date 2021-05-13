@@ -56,8 +56,8 @@ p {
 }
 
 .buttons:hover {
-  -webkit-filter: saturate(140%);
-          filter: saturate(140%);
+  -webkit-filter: saturate(150%);
+          filter: saturate(150%);
 }
 
 header {
@@ -78,15 +78,42 @@ header .header-content {
           align-items: center;
 }
 
-header .header-content nav ul {
+header .header-content ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .header-content nav a {
+header .header-content ul a {
   color: #9698a6;
   font-size: 16px;
+  margin-left: 30px;
+}
+
+body#home .active::after {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 4px;
+  position: relative;
+  top: 29px;
+  left: 41px;
+  background: linear-gradient(104deg, #31d35c, #2bb7da);
+}
+
+body#home header #logo {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  margin-right: -30px;
+}
+
+body#home header ul {
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
+}
+
+body#home header ul a.active {
+  color: #000;
   padding: 0 15px;
 }
 

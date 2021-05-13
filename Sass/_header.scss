@@ -7,20 +7,47 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
 
-  .header-content nav ul {
-    display: flex;
-  }
+    ul {
+      display: flex;
 
-  .header-content nav a {
-    color: #9698a6;
-    font-size: 16px;
-    padding: 0 15px;
+      a {
+        color: #9698a6;
+        font-size: 16px;
+        margin-left: 30px;
+      }
+    }
   }
 }
 
+// ===== TESTE ===== //
+body#home {
+  .active::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 4px;
+    position: relative;
+    top: 29px;
+    left: 41px;
+    background: linear-gradient(
+    104deg , #31d35c, rgb(43, 183, 218));
+  }
 
+  header{
+    #logo {
+      transform: translateY(4px);
+      margin-right: -30px;
+    }
 
+    ul {
+      transform: translateY(12px);
 
-
+      a.active {
+        color: #000;
+        padding: 0 15px;
+      }
+    }
+  }
+}
+// ===== TESTE ===== //
