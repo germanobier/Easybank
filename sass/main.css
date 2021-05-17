@@ -13,6 +13,7 @@ body {
 }
 
 main {
+  overflow-x: hidden;
   background-color: #fafafa;
 }
 
@@ -212,6 +213,10 @@ div#main-div-imgs img#phone {
   margin-bottom: 15px;
 }
 
+#articles-flex .articles .articles-text span:hover {
+  text-decoration: underline;
+}
+
 #articles-flex .articles .articles-text h4 {
   font-size: 20px;
   margin-bottom: 15px;
@@ -232,6 +237,8 @@ div#main-div-imgs img#phone {
 #articles-flex .articles:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  -webkit-box-shadow: 0px 0px 7px 0px #8080804d;
+          box-shadow: 0px 0px 7px 0px #8080804d;
 }
 
 footer {
