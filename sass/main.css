@@ -99,6 +99,7 @@ body#home .active::after {
   position: relative;
   top: 29px;
   left: 41px;
+  cursor: default;
   background: linear-gradient(104deg, #31d35c, #2bb7da);
 }
 
