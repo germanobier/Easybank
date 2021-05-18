@@ -1,4 +1,4 @@
-# Mais um desafio concluído 🚀
+# Mais um desafio concluído! 🚀
 
 O Frontendmentor é um site de desafios de frontend. O site proporciona as imagens e svgs e uma imagem de como a interface deve ficar, e o usuário tem o desafio de transformar o layout em código. Fiz o layout buscando deixar o mais fiél possível com os designs desktop e mobile.
 
