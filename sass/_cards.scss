@@ -2,17 +2,14 @@
   background-color: hsl(220, 16%, 96%);
   padding: 60px 0 60px 0px;
 
-  #cards-flex {
-    display: flex;
-
-    :not(:last-child) {
-      margin-right: 25px;
-    }
+  #cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
   }
 
   .cards {
     margin-top: 35px;
-    width: 300px;
 
     img {
       margin-bottom: 40px;

@@ -1,9 +1,10 @@
-#articles-flex {
-  display: flex;
+#articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
   padding-bottom: 70px;
 
   .articles {
-    margin-right: 25px;
     transition: 0.35s;
     cursor: pointer;
     
