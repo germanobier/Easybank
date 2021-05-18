@@ -24,36 +24,3 @@ header {
     }
   }
 }
-
-// ===== TESTE ===== //
-/*body#home {
-  .active::after {
-    content: '';
-    display: block;
-    width: 60%;
-    height: 4px;
-    position: relative;
-    top: 29px;
-    left: 41px;
-    cursor: default;
-    background: linear-gradient(
-    104deg , #31d35c, rgb(43, 183, 218));
-  }
-
-  header{
-    #logo {
-      transform: translateY(4px);
-      margin-right: -30px;
-    }
-
-    ul {
-      transform: translateY(12px);
-
-      a.active {
-        color: #000;
-        padding: 0 15px;
-      }
-    }
-  }
-}*/
-// ===== TESTE ===== //
