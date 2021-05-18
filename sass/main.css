@@ -89,6 +89,12 @@ header .header-content ul a {
   color: #9698a6;
   font-size: 16px;
   margin-left: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .header-content ul a:hover {
+  color: #000;
 }
 
 body#home .active::after {

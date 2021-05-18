@@ -15,6 +15,11 @@ header {
         color: #9698a6;
         font-size: 16px;
         margin-left: 30px;
+        transition: 0.3s;
+
+        &:hover {
+          color: #000;
+        }
       }
     }
   }
