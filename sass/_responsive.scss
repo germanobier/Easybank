@@ -10,7 +10,7 @@
       text-align: center;
 
       p {
-        max-width: 85%;
+        width: 100%;
         margin: auto;
       }
     }
@@ -33,16 +33,92 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 20px 40px;
+  }
+
+  .header-content {
+    nav {
+      display: none;
+    }
+  
+    .buttons {
+      display: none;
+    }
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+
+    .one, .two, .three {
+      width: 100%;
+      height: 1px;
+      background-color: #000;
+      margin-top: 6px;
+      transition-duration: 0.3s;
+    }
+  }
+
+  .menu-section.on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 10;
+
+    nav {
+      display: block;
+      z-index: 11;
+
+      ul {
+        flex-direction: column;
+        text-align: center;
+
+        a {
+          font-size: 20px;
+          line-height: 4rem;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .menu-toggle {
+      position: absolute;
+      right: 40px;
+      top: 20px;
+
+      .one {
+        transform: rotate(45deg) translate(7px, 7px);
+      }
+
+      .two {
+        opacity: 0;
+      }
+
+      .three {
+        transform: rotate(-45deg) translate(3px, -4px);
+      }
+    }
+  }
+
   main {
     text-align: center;
   }
 
   #main-div {
+    height: auto;
     flex-direction: column-reverse;
 
     div#main-div-text {
       width: 100%;
-      margin-top: -50px;
+      margin-top: -125px;
+      margin-bottom: 100px;
     }
   }
 
@@ -79,7 +155,7 @@
 
     a {
       padding-bottom: 25px;
-      width: 85%;
+      width: 100%;
       margin: auto;
     }
 
@@ -89,6 +165,36 @@
       img {
         width: 100%;
         height: 90%;
+      }
+
+      &:hover {
+        transform: scale(1.10);
+      }
+    }
+  }
+
+  footer {
+    #footer-content {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+      align-items: center;
+
+      #footer-media {
+        height: 80px;
+        margin-bottom: 30px;
+      }
+
+      ul.links-list {
+        height: 100px;
+        margin-bottom: 20px;
+      }
+
+      #footer-end {
+        margin-top: 10px;
+        height: 95px;
+        width: auto;
+        align-items: center;
       }
     }
   }
